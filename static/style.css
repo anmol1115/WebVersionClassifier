@@ -1,0 +1,49 @@
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    vertical-align: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: maroon;
+}
+
+#canvasDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+#buttonDiv{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#myCanvas{
+    border: 4px solid lightblue;
+    background-color: white;
+}
+
+.btn{
+    width: 80px;
+    height: 30px;
+    background-color: goldenrod;
+    color: white;
+    outline: none;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(238, 181, 36);
+    text-shadow: 2px 2px 5px;
+    box-shadow: 3px 3px rgb(161, 17, 17);
+    transition: 1s;
+}
+
+#chartDiv{
+    width: 450px;
+    height: 300px;
+    background-color: white;
+    border: 4px solid lightblue;
+}

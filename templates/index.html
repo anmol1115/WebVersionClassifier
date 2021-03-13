@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Classifier</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <div id="canvasDiv">
+        <canvas id="myCanvas"></canvas>
+        <div id="buttonDiv">
+            <button id="clearCanvas" class="btn">Clear</button>
+            <button id="predictBtn" class="btn">Predict</button>
+        </div>
+    </div>
+    <div id="chartDiv"></div>
+
+    <script src="https://code.jscharting.com/2.9.0/jscharting.js"></script>
+    <script src="{{url_for('static', filename='jquery-3.6.0.min.js')}}"></script>
+    <script src="{{url_for('static', filename='logic.js')}}"></script>
+</body>
+</html>
